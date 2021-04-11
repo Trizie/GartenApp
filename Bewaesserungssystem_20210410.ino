@@ -12,13 +12,13 @@
 
 
   //IP-Adresse und user-Daten für MariaDB
-  IPAddress server_addr(88,198,240,70);  //88.198.240.70  192,168,178,24
+  IPAddress server_addr(##,###,###,##);  
   char user[] = "garten";              
-  char password[] = "garten";        
+  char password[] = "##########";        
 
   //WiFi-Netzwerk 
-  char ssid[] = "FRITZ!Box 7362 SL";             
-  char pass[] = "69687998819699246542";      
+  char ssid[] = "###############";             
+  char pass[] = "################";      
 
   //WiFi-Client erstellen
   WiFiClient client;           
