@@ -75,9 +75,9 @@ Gartenapp::Gartenapp(QWidget *parent) :
     //mysql Datenbank verbinden
 
     db = QSqlDatabase::addDatabase("QMYSQL");
-    db.setHostName("88.198.240.70"); //127.0.0.1
-    db.setUserName("garten");
-    db.setPassword("garten");
+    db.setHostName("############"); //127.0.0.1
+    db.setUserName("##########");
+    db.setPassword("#####");
     db.setDatabaseName("gartentest");
 
 
